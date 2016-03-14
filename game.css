@@ -1,0 +1,39 @@
+.dices {
+	height: 60px;
+}
+
+.dice {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.dice-green {
+	color: white;
+	background-color: green;
+}
+
+.dice-yellow {
+	color: black;
+	background-color: yellow;
+}
+
+.dice-red {
+	color: white;
+	background-color: red;
+}
+
+.dice-brain::after {
+	content: "Brain";
+}
+
+.dice-shotgun::after {
+	content: "Shot";
+}
+
+.dice-footprints::after {
+	content: "Steps";
+}
